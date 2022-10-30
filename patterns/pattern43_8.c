@@ -1,0 +1,34 @@
+#include<stdio.h>
+void main()
+{
+    int i,j,n=5,k;
+    for(i=1;i<=n;i++)
+    {
+        if(i%2==0)
+        {
+            for(j=1;j<=3;j++)
+            {   
+                printf("*");
+                if(j%3==0)
+                    printf("\n");  
+            }  
+        }
+        else
+        {
+            for(j=1;j<=5;j++)
+            {    
+                printf("*");
+                if(j%5==0)
+                    printf("\n"); 
+            }   
+        }
+        if(i==n)
+            break;
+        for(k=0;k<=2;k++)
+        {
+            printf("*");
+            if(k%2==0);
+                printf("\n");
+        }
+    }
+}
