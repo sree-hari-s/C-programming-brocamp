@@ -55,11 +55,9 @@ void main()
                     if (array[i] == array[j])
                     {
                         count++;
-                        printf("%d-%d--%d\t",array[i],array[j],count);
                     }
                 }
             }
-            printf("\n%d$\n",count);
             if (count == 1)
             {
                 for (k = i; k < n; k++)

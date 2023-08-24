@@ -21,12 +21,12 @@ void main()
             count=0;
             for(j=0;j<n;j++)
             {
-                if(array[i]==array[j] && i!=j && array[i]%2!=0)
+                if(array[i]==array[j]  && array[i]%2!=0)
                 {
                     count++;
                 }
             }
-            if(count==0)
+            if(count==1)
             {
                 for(j=i;j<n;j++)
                 {
@@ -44,7 +44,7 @@ void main()
             count=0;
             for(j=0;j<n;j++)
             {
-                if(array[i]==array[j] && i!=j && array[i]%2==0)
+                if(array[i]==array[j] && array[i]%2==0)
                 {
                     count++;
                 }
